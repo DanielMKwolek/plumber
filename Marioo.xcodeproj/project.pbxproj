@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		65080F771D6CCB180081102D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65080F761D6CCB180081102D /* main.m */; };
+		65080F7F1D6CCB320081102D /* Plumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 65080F7E1D6CCB320081102D /* Plumber.m */; };
+		65080F821D6CD1790081102D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65080F811D6CD1790081102D /* Customer.m */; };
+		65080F851D6CD4A90081102D /* BadCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65080F841D6CD4A90081102D /* BadCustomer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		65080F731D6CCB180081102D /* Marioo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Marioo; sourceTree = BUILT_PRODUCTS_DIR; };
 		65080F761D6CCB180081102D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65080F7D1D6CCB320081102D /* Plumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plumber.h; path = ../Plumber.h; sourceTree = "<group>"; };
+		65080F7E1D6CCB320081102D /* Plumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Plumber.m; path = ../Plumber.m; sourceTree = "<group>"; };
+		65080F801D6CD1790081102D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		65080F811D6CD1790081102D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		65080F831D6CD4A90081102D /* BadCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadCustomer.h; sourceTree = "<group>"; };
+		65080F841D6CD4A90081102D /* BadCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadCustomer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				65080F761D6CCB180081102D /* main.m */,
+				65080F7D1D6CCB320081102D /* Plumber.h */,
+				65080F7E1D6CCB320081102D /* Plumber.m */,
+				65080F801D6CD1790081102D /* Customer.h */,
+				65080F811D6CD1790081102D /* Customer.m */,
+				65080F831D6CD4A90081102D /* BadCustomer.h */,
+				65080F841D6CD4A90081102D /* BadCustomer.m */,
 			);
 			path = Marioo;
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65080F771D6CCB180081102D /* main.m in Sources */,
+				65080F851D6CD4A90081102D /* BadCustomer.m in Sources */,
+				65080F821D6CD1790081102D /* Customer.m in Sources */,
+				65080F7F1D6CCB320081102D /* Plumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
